@@ -12,7 +12,7 @@ export function applyRotateCameraAndLights(renderer, camera, lights) {
 
     renderer.domElement.addEventListener('mousemove', function(e) {
         var deltaMove = {
-            x: e.offsetX - previousMousePosition.x,
+            x: 0, // ignore hz mouse motion
             y: e.offsetY - previousMousePosition.y
         };
 
@@ -32,7 +32,7 @@ export function applyRotateCameraAndLights(renderer, camera, lights) {
         }
 
         previousMousePosition = {
-            x: e.offsetX,
+            x: 0, // ignore hz mouse motion
             y: e.offsetY
         };
     });

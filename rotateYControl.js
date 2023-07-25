@@ -16,7 +16,7 @@ export function applyRotateYControl(renderer, rolodex) {
         isDragging = true;
         previousMousePosition = {
             x: e.offsetX,
-            y: e.offsetY
+            y: 0
         };
     });
 
@@ -24,14 +24,14 @@ export function applyRotateYControl(renderer, rolodex) {
         if (isDragging) {
             var deltaMove = {
                 x: e.offsetX - previousMousePosition.x,
-                y: e.offsetY - previousMousePosition.y
+                y: 0
             };
             
             rotationVelocity.y = deltaMove.x * 0.01;
             
             previousMousePosition = {
                 x: e.offsetX,
-                y: e.offsetY
+                y: 0
             };
         }
     });
