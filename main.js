@@ -5,7 +5,7 @@ import { Vector3 } from './node_modules/three/build/three.module.js';
 import { createRolodex } from './rolodex.js';
 import { applyRotateYControl } from './rotateYControl.js';
 import { applyZoomScrollControl } from './zoomScrollControl.js';
-//import { applyRotateCameraAndLights } from './rotateCameraAndLights.js';
+import { applyRotateCameraAndLights } from './rotateCameraAndLights.js';
 
 // Create the scene and camera
 var scene = new Scene();
@@ -37,7 +37,7 @@ scene.add(ambientLight);
 applyZoomScrollControl(camera);
 
 // Apply rotate control for camera and light
-// applyRotateCameraAndLight(renderer, camera, [light, ambientLight]);
+applyRotateCameraAndLights(renderer, camera, [light, ambientLight]);
 
 // Apply rotate control around Y-axis
 var rotationVelocity = applyRotateYControl(renderer, rolodex);

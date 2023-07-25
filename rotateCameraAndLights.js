@@ -1,9 +1,10 @@
-// rotateCameraAndLight.js
+// rotateCameraAndLights.js
 import { Vector3 } from './node_modules/three/build/three.module.js';
 
 export function applyRotateCameraAndLights(renderer, camera, lights) {
     var isDragging = false;
     var previousMousePosition = { x: 0, y: 0 };
+    var verticalAngle = Math.PI / 2; // Initial camera's vertical rotation angle is 90 degrees
 
     renderer.domElement.addEventListener('mousedown', function(e) {
         isDragging = true;
@@ -16,15 +17,17 @@ export function applyRotateCameraAndLights(renderer, camera, lights) {
         };
 
         if (isDragging) {
-            var angle = toRadians(deltaMove.y * 0.1);
-            
-            // Rotate the camera
-            camera.position.applyAxisAngle(new Vector3(1, 0, 0), angle);
+            var angleDelta = deltaMove.y / window.innerHeight * Math.PI; // Calculate angle delta based on the proportion of the vertical drag relative to the window height
+            verticalAngle -= angleDelta; // Decrease the vertical angle when dragging downwards
+            verticalAngle = Math.max(0, Math.min(Math.PI, verticalAngle)); // Restrict to 0 - 180 degrees
+
+            // Adjust the camera's position based on the vertical angle
+            camera.position.set(0, 5 * Math.cos(verticalAngle), 5 * Math.sin(verticalAngle));
             camera.lookAt(new Vector3(0, 0, 0));
             
-            // Rotate the lights
+            // Adjust the lights' positions based on the vertical angle
             lights.forEach(light => {
-                light.position.applyAxisAngle(new Vector3(1, 0, 0), angle);
+                light.position.set(0, 5 * Math.cos(verticalAngle), 5 * Math.sin(verticalAngle));
             });
         }
 
@@ -37,8 +40,4 @@ export function applyRotateCameraAndLights(renderer, camera, lights) {
     renderer.domElement.addEventListener('mouseup', function(e) {
         isDragging = false;
     });
-
-    function toRadians(angle) {
-        return angle * (Math.PI / 180);
-    }
 }
