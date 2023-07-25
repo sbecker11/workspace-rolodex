@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "echo 'Start the server with Live Server in Visual Studio Code'"
+  },
+  "dependencies": {
+    "three": "^0.154.0"
+  }
+}
