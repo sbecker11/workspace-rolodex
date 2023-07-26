@@ -21,13 +21,16 @@ export function applyRotateCameraAndLights(renderer, camera, lights) {
             verticalAngle -= angleDelta; // Decrease the vertical angle when dragging downwards
             verticalAngle = Math.max(0, Math.min(Math.PI, verticalAngle)); // Restrict to 0 - 180 degrees
 
+            // Get the current distance of the camera to the origin
+            var distance = camera.position.length();
+
             // Adjust the camera's position based on the vertical angle
-            camera.position.set(0, 5 * Math.cos(verticalAngle), 5 * Math.sin(verticalAngle));
+            camera.position.set(0, distance * Math.cos(verticalAngle), distance * Math.sin(verticalAngle));
             camera.lookAt(new Vector3(0, 0, 0));
             
             // Adjust the lights' positions based on the vertical angle
             lights.forEach(light => {
-                light.position.set(0, 5 * Math.cos(verticalAngle), 5 * Math.sin(verticalAngle));
+                light.position.set(0, distance * Math.cos(verticalAngle), distance * Math.sin(verticalAngle));
             });
         }
 
