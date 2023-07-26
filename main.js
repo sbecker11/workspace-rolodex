@@ -9,7 +9,7 @@ import { applyRotateCameraAndLights } from './rotateCameraAndLights.js';
 
 // Create the scene and camera
 var scene = new Scene();
-scene.background = new Color(0);
+scene.background = new Color(0x222222);
 
 var camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.set(2, 2, 2);
