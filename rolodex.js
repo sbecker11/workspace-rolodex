@@ -2,6 +2,9 @@
 import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh, Group, DoubleSide, Color } from './node_modules/three/build/three.module.js';
 import { CylinderGeometry } from './node_modules/three/build/three.module.js';
 import { flatColorChips } from './color_chips.js';
+// import { plotChipHistograms } from './color_histograms.js';
+
+// plotChipHistograms(flatColorChips);
 
 var cardWidth = 1.0;
 
@@ -62,7 +65,8 @@ function scaleColorChips(colorChips, cardWidth) {
 function createChip(colorChip, chipSize) {
     let chipDepth = chipSize / 4;
     var chipGeometry = new BoxGeometry(chipSize, chipSize, chipDepth);
-    var chipMaterial = new MeshPhongMaterial({ color: new Color(parseInt(colorChip.r), parseInt(colorChip.g), parseInt(colorChip.b)) });
+    var chipMaterial = new MeshPhongMaterial(
+        { color: new Color(parseInt(colorChip.r)/255.0, parseInt(colorChip.g)/255.0, parseInt(colorChip.b)/255.0) });
     var chip = new Mesh(chipGeometry, chipMaterial);
     chip.position.set(colorChip.x1 + chipSize / 2, colorChip.y1 + chipSize / 2, -chipDepth / 2);
     return chip;
@@ -77,7 +81,7 @@ function createCard(angle, cylinderRadius, cardWidth, cardHeight) {
          color: new Color(0xffffff), 
          side: DoubleSide,
          transparent: true, // Enable transparency
-         opacity: 0.25 // Set opacity level (0 = fully transparent, 1 = fully opaque)
+         opacity: 0.05 // Set opacity level (0 = fully transparent, 1 = fully opaque)
 
         });
     var card = new Mesh(cardGeometry, cardMaterial);
@@ -105,8 +109,8 @@ export function createRolodex() {
     // Create the cards of the Rolodex
     var numCards = 40;
     for (var i = 0; i < numCards; i++) {
-        if (i % 4 !== 0)
-            continue;
+        // if (i % 4 !== 0)
+        //     continue;
         var angle = (i / numCards) * Math.PI * 2;
         var card = createCard(angle, cylinderRadius, cardWidth, cardHeight);
         rolodex.add(card);
