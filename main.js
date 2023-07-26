@@ -12,7 +12,7 @@ var scene = new Scene();
 scene.background = new Color(0);
 
 var camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(5, 5, 5);
+camera.position.set(2, 2, 2);
 camera.lookAt(new Vector3(0, 0, 0));  // Look at the center of the scene
 
 // Create the renderer
