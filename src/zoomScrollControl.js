@@ -1,5 +1,5 @@
  // zoomScrollControl.js
-import { Vector3 } from './node_modules/three/build/three.module.js';
+import { Vector3 } from '../node_modules/three/build/three.module.js';
 
 export function applyZoomScrollControl(camera) {
     window.addEventListener('wheel', function (event) {
@@ -9,7 +9,7 @@ export function applyZoomScrollControl(camera) {
         // control camera zoom to origin with mouse scroll
         var vector = new Vector3(0, 0, 0).sub(camera.position);
         var distance = vector.length();
-        var minDistance = 2;
+        var minDistance = 0.5;
         var maxDistance = 10;
         var newDistance = distance + event.deltaY * 0.01; // Reversed the effect of scroll
         if (newDistance >= minDistance && newDistance <= maxDistance) {

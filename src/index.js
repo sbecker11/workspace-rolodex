@@ -1,7 +1,8 @@
 // main.js
-import { Scene, PerspectiveCamera, WebGLRenderer } from './node_modules/three/build/three.module.js';
-import { PointLight, AmbientLight, Color } from './node_modules/three/build/three.module.js';
-import { Vector3 } from './node_modules/three/build/three.module.js';
+import { Scene, PerspectiveCamera, WebGLRenderer } from '../node_modules/three/build/three.module.js';
+import { PointLight, AmbientLight, Color } from '../node_modules/three/build/three.module.js';
+import { Vector3 } from '../node_modules/three/build/three.module.js';
+
 import { createRolodex } from './rolodex.js';
 import { applyRotateYControl } from './rotateYControl.js';
 import { applyZoomScrollControl } from './zoomScrollControl.js';

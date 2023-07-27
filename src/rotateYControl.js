@@ -1,5 +1,5 @@
 // rotateYControl.js
-import { Vector3, Quaternion, Euler } from './node_modules/three/build/three.module.js';
+import { Vector3, Quaternion, Euler } from '../node_modules/three/build/three.module.js';
 
 export function applyRotateYControl(renderer, rolodex) {
     var isDragging = false;

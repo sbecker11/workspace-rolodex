@@ -1,7 +1,7 @@
 // rolodex.js
 
-import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh, Group, DoubleSide, Color } from './node_modules/three/build/three.module.js';
-import { CylinderGeometry } from './node_modules/three/build/three.module.js';
+import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh } from '../node_modules/three/build/three.module.js';
+import { CylinderGeometry, Group, DoubleSide, Color } from '../node_modules/three/build/three.module.js';
 import { flatColorChips } from './color_chips.js';
 import { addTextToCard } from './textUtils.js';
 
@@ -51,9 +51,9 @@ function scaleColorChips(colorChips, cardWidth) {
 
     // Translate and orient the color chips
     colorChips.forEach(chip => {
-        var scale = 4;
-        chip.x1 = cardWidth/2 - (chip.x1 * scaleFactor) - scale*chipSize;
-        chip.x2 = cardWidth/2 - (chip.x2 * scaleFactor) - scale*chipSize;
+        var x_scale = -1;
+        chip.x1 = cardWidth/2 - (chip.x1 * scaleFactor) + x_scale*chipSize;
+        chip.x2 = cardWidth/2 - (chip.x2 * scaleFactor) + x_scale*chipSize;
         chip.y1 = cardHeight - (chip.y1 - minY) * scaleFactor - cardHeight/2 - chipSize - chipSize/2; // flip y-axis to make minY at the top
         chip.y2 = cardHeight - (chip.y2 - minY) * scaleFactor - cardHeight/2 - chipSize - chipSize/2; // flip y-axis to make minY at the top
     });

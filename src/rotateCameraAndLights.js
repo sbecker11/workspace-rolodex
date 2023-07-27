@@ -1,5 +1,5 @@
 // rotateCameraAndLights.js
-import { Vector3 } from './node_modules/three/build/three.module.js';
+import { Vector3 } from '../node_modules/three/build/three.module.js';
 
 export function applyRotateCameraAndLights(renderer, camera, lights) {
     var isDragging = false;
