@@ -1,10 +1,9 @@
-// createRolodex.js
+// rolodex.js
+
 import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh, Group, DoubleSide, Color } from './node_modules/three/build/three.module.js';
 import { CylinderGeometry } from './node_modules/three/build/three.module.js';
 import { flatColorChips } from './color_chips.js';
-// import { plotChipHistograms } from './color_histograms.js';
-
-// plotChipHistograms(flatColorChips);
+import { addTextToCard } from './textUtils.js';
 
 var cardWidth = 1.0;
 
@@ -82,12 +81,12 @@ function createCard(angle, cylinderRadius, cardWidth, cardHeight) {
          side: DoubleSide,
          transparent: true, // Enable transparency
          opacity: 0.05 // Set opacity level (0 = fully transparent, 1 = fully opaque)
-
         });
     var card = new Mesh(cardGeometry, cardMaterial);
     card.position.x = Math.sin(angle) * (cylinderRadius + cardWidth / 2);
     card.position.z = Math.cos(angle) * (cylinderRadius + cardWidth / 2);
     card.rotation.y = angle + Math.PI / 2;
+
     return card;
 }
 
@@ -118,9 +117,14 @@ export function createRolodex() {
         let matchingColorChips = colorChips.filter(chip => parseInt(chip.page_hue_number-1) === i);
         console.log(`card:${i} degrees:${Math.floor(angle*radiansToDegrees)} #matchingColoChips ${matchingColorChips.length}`)
 
+        var fontSize= 0.02;
+
+        // addTextToCard(matchingColorChips[0].page_hue_name, 0xffffff, card, cardWidth * 0.75, cardHeight * 0.5, fontSize); 
+
         matchingColorChips.forEach(colorChip => {
             var chip = createChip(colorChip, chipSize);
             card.add(chip);
+
         });
     }
 

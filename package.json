@@ -3,8 +3,6 @@
     "start": "echo 'Start the server with Live Server in Visual Studio Code'"
   },
   "dependencies": {
-    "chart": "^0.1.2",
-    "matplotlib": "^1.0.0",
     "three": "^0.154.0"
   }
 }
