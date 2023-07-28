@@ -1,0 +1,16 @@
+//  from https://gist.github.com/jarshwah
+// source: ./js-src/<item>
+// target: ./static/js-build/<item>
+// Do not use uglify plugin when debugging, did not try to get source maps working with uglify
+{
+  resolve: {
+    root: [  // older webpack config
+        path.join(__dirname, '/js-src'),  // source at ./js-src/
+    ]
+  devtool: "source-map", // many options, but this one works best for me: https://webpack.js.org/configuration/devtool/
+  output: {
+      filename: '[name].js',
+      path: path.join(__dirname, '/static/js-build'),  // compile to ./static/js-build
+      devtoolModuleFilenameTemplate: 'file:///[absolute-resource-path]'  // map to source with absolute file path not webpack:// protocol
+  }
+}
