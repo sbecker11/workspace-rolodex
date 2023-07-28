@@ -6,4 +6,4 @@ This three.js app was written with help from
 Here's the Munsell Color Space in 3-D  
 <img src="./rolodex-1.gif">
 
-See my related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
+## See my related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
