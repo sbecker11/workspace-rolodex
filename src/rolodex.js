@@ -16,19 +16,34 @@ console.log(`value_row:${min_value_row} .. ${max_value_row}`);
 console.log(`chroma_column:${min_chroma_column} .. ${max_chroma_column}`);
 
 function scaleColorChips(colorChips, cardWidth) {
+
+    console.log(`incoming numColorChips:${colorChips.length}`);
+
     // Convert strings to floating point numbers
     colorChips.forEach(chip => {
         chip.x1 = parseFloat(chip.x1);
         chip.x2 = parseFloat(chip.x2);
         chip.y1 = parseFloat(chip.y1);
         chip.y2 = parseFloat(chip.y2);
+        chip.value_row = parseInt(chip.value_row);
+        chip.chroma_column = parseInt(chip.chroma_column);
+        chip.page_hue_number = parseInt(chip.page_hue_number);
     });
+
+    console.log(`before valueRow filtering numColorChips:${colorChips.length}`);
+
+    // keep only colorChips with value_row between 1 and 9
+    var colorChips = colorChips.filter(chip => {
+        return chip.value_row >= 1 && chip.value_row <= 9;
+    });
+
+    console.log(`after valueRow filtering numColorChips:${colorChips.length}`);
 
     // Find ranges
     let xValues = colorChips.map(chip => chip.x1).concat(colorChips.map(chip => chip.x2));
     let yValues = colorChips.map(chip => chip.y1).concat(colorChips.map(chip => chip.y2));
-    let valueRows = colorChips.map(chip => parseInt(chip.value_row));
-    let chromaColumns = colorChips.map(chip => parseInt(chip.chroma_column));
+    let valueRows = colorChips.map(chip => chip.value_row);
+    let chromaColumns = colorChips.map(chip => chip.chroma_column);
 
     let minX = Math.min(...xValues);
     let maxX = Math.max(...xValues);
@@ -47,15 +62,15 @@ function scaleColorChips(colorChips, cardWidth) {
     chipMargin *= scaleFactor;
 
     // Adjust card height to match aspect ratio of x-range and y-range
-    let cardHeight = cardWidth * (maxY - minY) / (maxX - minX);
+    let cardHeight = cardWidth * (maxY - minY) / (maxX - minX) - chipSize/2;
 
     // Translate and orient the color chips
     colorChips.forEach(chip => {
         var x_scale = -1;
         chip.x1 = cardWidth/2 - (chip.x1 * scaleFactor) + x_scale*chipSize;
         chip.x2 = cardWidth/2 - (chip.x2 * scaleFactor) + x_scale*chipSize;
-        chip.y1 = cardHeight - (chip.y1 - minY) * scaleFactor - cardHeight/2 - chipSize - chipSize/2; // flip y-axis to make minY at the top
-        chip.y2 = cardHeight - (chip.y2 - minY) * scaleFactor - cardHeight/2 - chipSize - chipSize/2; // flip y-axis to make minY at the top
+        chip.y1 = (chip.y1 - minY) * scaleFactor - cardHeight/2; // flip y-axis to make minY at the top
+        chip.y2 = (chip.y2 - minY) * scaleFactor - cardHeight/2; // flip y-axis to make minY at the top
     });
 
     return { colorChips, cardHeight, minX, maxX, minY, maxY, chipSize, chipMargin };
@@ -71,16 +86,16 @@ function createChip(colorChip, chipSize) {
     return chip;
 }
 
-var cylinderRadius = cardWidth / 8;
+var cylinderRadius = 0;
 
 function createCard(angle, cylinderRadius, cardWidth, cardHeight) {
     // Create card
     var cardGeometry = new PlaneGeometry(cardWidth, cardHeight);
     var cardMaterial = new MeshPhongMaterial({
-         color: new Color(0xffffff), 
+         //color: new Color(0xffffff), 
          side: DoubleSide,
          transparent: true, // Enable transparency
-         opacity: 0.05 // Set opacity level (0 = fully transparent, 1 = fully opaque)
+         opacity: 0.00 // Set opacity level (0 = fully transparent, 1 = fully opaque)
         });
     var card = new Mesh(cardGeometry, cardMaterial);
     card.position.x = Math.sin(angle) * (cylinderRadius + cardWidth / 2);
@@ -114,7 +129,7 @@ export function createRolodex() {
         var card = createCard(angle, cylinderRadius, cardWidth, cardHeight);
         rolodex.add(card);
 
-        let matchingColorChips = colorChips.filter(chip => parseInt(chip.page_hue_number-1) === i);
+        let matchingColorChips = colorChips.filter(chip => chip.page_hue_number-1 === i);
         console.log(`card:${i} degrees:${Math.floor(angle*radiansToDegrees)} #matchingColoChips ${matchingColorChips.length}`)
 
         var fontSize= 0.02;
@@ -128,8 +143,8 @@ export function createRolodex() {
         });
     }
 
-    var cylinder = createCylinder(cardHeight, cylinderRadius);
-    rolodex.add(cylinder);
+    // var cylinder = createCylinder(cardHeight, cylinderRadius);
+    // rolodex.add(cylinder);
 
     return rolodex;
 }
