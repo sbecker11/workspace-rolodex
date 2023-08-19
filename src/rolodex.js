@@ -77,7 +77,7 @@ function scaleColorChips(colorChips, cardWidth) {
 }
 
 function createChip(colorChip, chipSize) {
-    let chipDepth = chipSize / 4;
+    let chipDepth = (cardWidth/2 - colorChip.x1) * 0.16;
     var chipGeometry = new BoxGeometry(chipSize, chipSize, chipDepth);
     var chipMaterial = new MeshPhongMaterial(
         { color: new Color(parseInt(colorChip.r)/255.0, parseInt(colorChip.g)/255.0, parseInt(colorChip.b)/255.0) });
