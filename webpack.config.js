@@ -1,4 +1,5 @@
 const path = require("path")
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, "src/index.js"),
@@ -8,6 +9,20 @@ module.exports = {
     library: "$",
     libraryTarget: "umd",
   },
+  mode: "development",
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),  // Use 'static' instead of 'contentBase'
+    },
+    compress: true,
+    port: 9000,
+    open: true  // This will open the browser automatically
+  },
+  plugins: [
+      new HtmlWebpackPlugin({
+          template: './index.html'  // This will use your index.html as the template
+      })
+  ],
   module: {
     rules: [
       {
@@ -17,5 +32,4 @@ module.exports = {
       },
     ],
   },
-  mode: "development",
 }
