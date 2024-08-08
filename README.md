@@ -4,7 +4,7 @@ This three.js app was written with help from
 <a href="https://chat.openai.com/?model=gpt-4-code-interpreter">chat-gpt4-code-interpreter</a>    
 
 Here's my Munsell Color Space in 3-D  
-<img src="./media/munsell-rolodex.gif" width="33%">
+<img src="./media/munsell-rolodex-blocks.gif" width="33%">
 
 ## See my related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
 
