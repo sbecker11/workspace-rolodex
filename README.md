@@ -5,7 +5,7 @@ This three.js app was written with help from
 
 Here's my Munsell Color Chips  in 3-D  
 
-<img src="./media/blocks.png">
+<img src="./media/munsell-rolodex-blocks.png">
 
 
 ## See my related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
