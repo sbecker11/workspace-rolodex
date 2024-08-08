@@ -3,7 +3,7 @@
 This three.js app was written with help from 
 <a href="https://chat.openai.com/?model=gpt-4-code-interpreter">chat-gpt4-code-interpreter</a>    
 
-Here's my Munsell Color Space in 3-D  
+Here's my Munsell Color Chips  in 3-D  
 <p align="center">
 <img src="./media/munsell-rolodex-blades.gif" width="33%">
 </p>
