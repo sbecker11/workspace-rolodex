@@ -1,6 +1,7 @@
 # workspace-rolodex
 
-Here's my Munsell Color Chips  in 3-D  
+  
+<a href="https://github.com.sbecker11.io/workspace-rolodex">Here's </a> my Munsell Color Chips in 3-D
 
 <img src="./media/munsell-rolodex-blocks-33.jpg">
 
