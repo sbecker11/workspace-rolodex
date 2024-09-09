@@ -1,35 +1,46 @@
-const path = require("path")
+const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, "src/index.js"),
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "index_bundle.js",
-    library: "$",
-    libraryTarget: "umd",
+    path: path.resolve(__dirname, "dist/workspace-rolodex"),
+    filename: '[name].[contenthash].js',
+    publicPath: '/workspace-rolodex/'
   },
-  mode: "development",
-  devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),  // Use 'static' instead of 'contentBase'
+  optimization: {
+    minimizer: [new TerserPlugin()],
+    splitChunks: {
+      chunks: 'all',
     },
-    compress: true,
-    port: 9000,
-    open: true  // This will open the browser automatically
   },
   plugins: [
-      new HtmlWebpackPlugin({
-          template: './index.html'  // This will use your index.html as the template
-      })
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+      filename: "../index.html"  // This puts index.html in the dist folder
+    })
   ],
   module: {
     rules: [
       {
-        test: /\.(js)$/,
+        test: /\.js$/,
         exclude: /node_modules/,
-        use: "babel-loader",
-      },
-    ],
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      }
+    ]
   },
-}
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    port: 9000,
+    open: true
+  }
+};
