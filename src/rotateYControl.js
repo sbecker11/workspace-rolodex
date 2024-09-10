@@ -38,6 +38,10 @@ export function applyRotateYControl(renderer, rolodex) {
 
     renderer.domElement.addEventListener('mouseup', function(e) {
         isDragging = false;
+
+        // Log the final rotation angles when dragging stops
+        console.log(`Final rotation around Y-axis: ${rolodex.rotation.y}`);
+        console.log(`Final rotation around X-axis: ${rolodex.rotation.x}`);
     });
 
     return rotationVelocity;

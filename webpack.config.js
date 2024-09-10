@@ -7,17 +7,18 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.[contenthash].js',
-    publicPath: '/workspace-rolodex/'
+    publicPath: '/',  // Ensure this matches the base URL
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',  // Changed from './src/index.html' to './index.html'
+      template: './index.html',  // Ensure this path is correct
       inject: 'body',
       scriptLoading: 'defer'
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'favicon.ico', to: 'favicon.ico' }
+        { from: 'favicon.ico', to: 'favicon.ico' },
+        { from: 'media', to: 'media' }  // Ensure this path is correct
       ],
     }),
   ],
@@ -34,5 +35,13 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    port: 9000,
+    open: true,  // Automatically open the browser
+  },
 };
