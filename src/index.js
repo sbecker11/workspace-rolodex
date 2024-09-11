@@ -1,71 +1,72 @@
-// main.js
-import { Scene, PerspectiveCamera, WebGLRenderer } from '../node_modules/three/build/three.module.js';
-import { PointLight, AmbientLight, Color } from '../node_modules/three/build/three.module.js';
-import { Vector3 } from '../node_modules/three/build/three.module.js';
+import { Scene, PerspectiveCamera, WebGLRenderer, PointLight, AmbientLight, Color, Vector3, MathUtils } from 'three';
 
 import { createRolodex } from './rolodex.js';
-import { applyRotateYControl } from './rotateYControl.js';
-import { applyZoomScrollControl } from './zoomScrollControl.js';
+import { applyZoomScrollControl, calculateDefaultDistance } from './zoomScrollControl.js';
 import { applyRotateCameraAndLights } from './rotateCameraAndLights.js';
+import { applyRotateYControl } from './rotateYControl.js';
+
+const customLog = require('./logger');
+
+const CAMERA_ZOOM = 2.729892039507871;
+const LIGHT_POSITION = { x: 0, y: 2.729892039507869, z: 0 };
+const ROLODEX_ROTATION = { y: -19.587837728762263, x: 0 };
+const AMBIENT_LIGHT_COLOR = 0x444444;
+const POINT_LIGHT_COLOR = 0xffffff;
+const BACKGROUND_COLOR = 0x222222;
 
 // Create the scene and camera
 const scene = new Scene();
-scene.background = new Color(0x222222);
+scene.background = new Color(BACKGROUND_COLOR);
 
 const camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(2, 2, 2);
-camera.lookAt(new Vector3(0, 0, 0));  // Look at the center of the scene
+
+// Calculate and set the default distance
+const defaultDistance = calculateDefaultDistance(camera) * 5; // Increase the distance by 5 times
+camera.position.set(0, defaultDistance, 0); // Center the camera on the Y-axis
+camera.lookAt(new Vector3(0, 0, 0));  // Point the camera towards the center of the scene
+
+// Set the default zoom
+camera.zoom = CAMERA_ZOOM;
+camera.updateProjectionMatrix(); // Update the camera projection matrix after changing the zoom
 
 // Create the renderer
 const renderer = new WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+// Attach the scene and camera to the renderer for use in animation functions
+renderer.scene = scene;
+renderer.camera = camera;
+
 // Create the Rolodex
 const rolodex = createRolodex();
+rolodex.position.set(0, 0, 0); // Ensure the Rolodex is centered
 scene.add(rolodex);
 
 // Create a light so we can see the Phong material
-const light = new PointLight(0xffffff, 1, 1000);
-light.position.set(0, 0, 5);
+const light = new PointLight(POINT_LIGHT_COLOR, 1, 1000);
+light.position.set(LIGHT_POSITION.x, LIGHT_POSITION.y, LIGHT_POSITION.z);
 scene.add(light);
 
 // Add the ambient light to the scene
-const ambientLight = new AmbientLight(0x444444); // soft white light
+const ambientLight = new AmbientLight(AMBIENT_LIGHT_COLOR); // soft white light
 scene.add(ambientLight);
 
 // Apply zoom controls
-applyZoomScrollControl(camera);
+applyZoomScrollControl(camera, defaultDistance);
+
+light.position.set(LIGHT_POSITION.x, LIGHT_POSITION.y, LIGHT_POSITION.z);
+rolodex.rotation.y = MathUtils.degToRad(ROLODEX_ROTATION.y); // Final rotation around Y-axis
+rolodex.rotation.x = ROLODEX_ROTATION.x; // Final rotation around X-axis
 
 // Apply rotate control for camera and light
 applyRotateCameraAndLights(renderer, camera, [light, ambientLight]);
 
 // Apply rotate control around Y-axis
-const rotationVelocity = applyRotateYControl(renderer, rolodex);
+applyRotateYControl(renderer, camera, rolodex);
 
-// Animate the scene
-function animate() {
-    
-    // Use the rotation velocity to update the Rolodex's rotation
-    rolodex.rotation.y += rotationVelocity.y;
-    rotationVelocity.y *= 0.95; // Gradually ease the rotation velocity to zero
-    
-    renderer.render(scene, camera);
-
-    const start = performance.now();
-    requestAnimationFrame(animate);
-    const end = performance.now();
-    const duration = end - start;
-
-    // Log if the frame took too long
-    // 16ms is roughly 60fps, 32ms is roughly 30fps, 64ms is roughly 15fps
-    if (duration > 64) { 
-        console.warn(`Frame took ${duration}ms`);
-    }
-}
-// start the animvation loop
-animate();
-
+// Track the previous zoom value
+let previousZoom = camera.zoom;
 
 // Handle window resize
 window.addEventListener('resize', () => {

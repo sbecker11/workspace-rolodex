@@ -4,20 +4,21 @@ import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh } from '../node_mod
 import { CylinderGeometry, Group, DoubleSide, Color } from '../node_modules/three/build/three.module.js';
 import { flatColorChips } from './color_chips.js';
 import { addTextToCard } from './textUtils.js';
+const customLog = require('./logger');
 
 var cardWidth = 1.0;
 
 var { colorChips, cardHeight, minX, maxX, minY, maxY, chipSize, chipMargin, min_value_row, max_value_row, min_chroma_column, max_chroma_column } = scaleColorChips(flatColorChips, cardWidth);
-console.log(`cardHeight:${cardHeight}`);
-console.log(`minX:${minX} maxX:${maxX}`);
-console.log(`minX:${minY} maxX:${maxY}`);
-console.log(`chipSize:${chipSize} chipMargin:${chipMargin}`);
-console.log(`value_row:${min_value_row} .. ${max_value_row}`);
-console.log(`chroma_column:${min_chroma_column} .. ${max_chroma_column}`);
+customLog(`cardHeight:${cardHeight}`);
+customLog(`minX:${minX} maxX:${maxX}`);
+customLog(`minX:${minY} maxX:${maxY}`);
+customLog(`chipSize:${chipSize} chipMargin:${chipMargin}`);
+customLog(`value_row:${min_value_row} .. ${max_value_row}`);
+customLog(`chroma_column:${min_chroma_column} .. ${max_chroma_column}`);
 
 function scaleColorChips(colorChips, cardWidth) {
 
-    console.log(`incoming numColorChips:${colorChips.length}`);
+    customLog(`incoming numColorChips:${colorChips.length}`);
 
     // Convert strings to floating point numbers
     colorChips.forEach(chip => {
@@ -30,14 +31,14 @@ function scaleColorChips(colorChips, cardWidth) {
         chip.page_hue_number = parseInt(chip.page_hue_number);
     });
 
-    console.log(`before valueRow filtering numColorChips:${colorChips.length}`);
+    customLog(`before valueRow filtering numColorChips:${colorChips.length}`);
 
     // keep only colorChips with value_row between 1 and 9
     var colorChips = colorChips.filter(chip => {
         return chip.value_row >= 1 && chip.value_row <= 9;
     });
 
-    console.log(`after valueRow filtering numColorChips:${colorChips.length}`);
+    customLog(`after valueRow filtering numColorChips:${colorChips.length}`);
 
     // Find ranges
     let xValues = colorChips.map(chip => chip.x1).concat(colorChips.map(chip => chip.x2));
@@ -130,7 +131,7 @@ export function createRolodex() {
         rolodex.add(card);
 
         let matchingColorChips = colorChips.filter(chip => chip.page_hue_number-1 === i);
-        console.log(`card:${i} degrees:${Math.floor(angle*radiansToDegrees)} #matchingColoChips ${matchingColorChips.length}`)
+        customLog(`card:${i} degrees:${Math.floor(angle*radiansToDegrees)} #matchingColoChips ${matchingColorChips.length}`)
 
         var fontSize= 0.02;
 

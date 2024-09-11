@@ -1,46 +1,31 @@
-// rotateCameraAndLights.js
-import { Vector3 } from '../node_modules/three/build/three.module.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 export function applyRotateCameraAndLights(renderer, camera, lights) {
-    var isDragging = false;
-    var previousMousePosition = { x: 0, y: 0 };
-    var verticalAngle = Math.PI / 2; // Initial camera's vertical rotation angle is 90 degrees
+    const controls = new OrbitControls(camera, renderer.domElement);
 
-    renderer.domElement.addEventListener('mousedown', function(e) {
-        isDragging = true;
+    // Set the initial target to the center of the scene
+    controls.target.set(0, 0, 0);
+
+    // Restrict the vertical rotation to prevent the camera from moving to the +z location
+    controls.maxPolarAngle = Math.PI / 2; // Limit the vertical rotation to 90 degrees
+
+    // Update the controls
+    controls.update();
+
+    // Add event listener to update lights' positions based on camera movement
+    controls.addEventListener('change', () => {
+        lights.forEach(light => {
+            light.position.copy(camera.position);
+        });
     });
 
-    renderer.domElement.addEventListener('mousemove', function(e) {
-        var deltaMove = {
-            x: 0, // ignore hz mouse motion
-            y: e.offsetY - previousMousePosition.y
-        };
+    // Animate the camera and lights
+    function animate() {
+        // Render the scene
+        renderer.render(renderer.scene, camera);
 
-        if (isDragging) {
-            var angleDelta = deltaMove.y / window.innerHeight * Math.PI; // Calculate angle delta based on the proportion of the vertical drag relative to the window height
-            verticalAngle -= angleDelta; // Decrease the vertical angle when dragging downwards
-            verticalAngle = Math.max(0, Math.min(Math.PI, verticalAngle)); // Restrict to 0 - 180 degrees
-
-            // Get the current distance of the camera to the origin
-            var distance = camera.position.length();
-
-            // Adjust the camera's position based on the vertical angle
-            camera.position.set(0, distance * Math.cos(verticalAngle), distance * Math.sin(verticalAngle));
-            camera.lookAt(new Vector3(0, 0, 0));
-            
-            // Adjust the lights' positions based on the vertical angle
-            lights.forEach(light => {
-                light.position.set(0, distance * Math.cos(verticalAngle), distance * Math.sin(verticalAngle));
-            });
-        }
-
-        previousMousePosition = {
-            x: 0, // ignore hz mouse motion
-            y: e.offsetY
-        };
-    });
-
-    renderer.domElement.addEventListener('mouseup', function(e) {
-        isDragging = false;
-    });
+        requestAnimationFrame(animate);
+    }
+    // Start the animation loop
+    animate();
 }
