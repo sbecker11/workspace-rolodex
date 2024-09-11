@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.[contenthash].js',
-    publicPath: '/',  // Ensure this matches the base URL
+    publicPath: '/workspace-rolodex/',  // Update this to match your repository name
   },
   plugins: [
     new HtmlWebpackPlugin({
