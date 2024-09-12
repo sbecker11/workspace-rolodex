@@ -1,15 +1,7 @@
  // zoomScrollControl.js
 import { Vector3 } from '../node_modules/three/build/three.module.js';
-const customLog = require('./logger');
-
-// Debounce function to limit the rate at which a function can fire
-function debounce(func, wait) {
-    let timeout;
-    return function(...args) {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => func.apply(this, args), wait);
-    };
-}
+import * as THREE from 'three';
+import customLog from './logger';
 
 // Calculate the default distance to fit the scene in the window
 export function calculateDefaultDistance(camera) {
@@ -20,35 +12,28 @@ export function calculateDefaultDistance(camera) {
     return distance;
 }
 
-export function applyZoomScrollControl(camera, defaultDistance = 1.0) {
-    // If defaultDistance is specified, set the camera's position to this distance from the origin
-    camera.position.setLength(defaultDistance);
+function applyZoomScrollControl(camera, renderer) {
 
-    let newDistance = defaultDistance;
+    const controls = new OrbitControls(camera, renderer.domElement);
 
-    function onZoom(event) {
-        // Prevent the default action (scrolling)
-        event.preventDefault();
+    // Set minimum and maximum zoom distances
+    controls.minDistance = 10;  // Minimum zoom distance
+    controls.maxDistance = 100; // Maximum zoom distance
 
-        // Control camera zoom to origin with mouse scroll
-        var vector = new Vector3(0, 0, 0).sub(camera.position);
-        var distance = vector.length();
-        var minDistance = 0.6;
-        var maxDistance = 3.0;
-        newDistance = distance + event.deltaY * 0.01; // Reversed the effect of scroll
-        if (newDistance >= minDistance && newDistance <= maxDistance) {
-            vector.normalize();
-            camera.position.sub(vector.multiplyScalar(event.deltaY * 0.01)); // Reversed the effect of scroll on camera position
-        }
+    // Optionally, you can set other properties like zoomSpeed
+    controls.zoomSpeed = 1.2;
+
+    function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        renderer.render(scene, camera);
+
+        // Calculate and log the distance from the scene origin
+        // let distance = camera.position.distanceTo(new THREE.Vector3(0, 0, 0));
+        // console.log('Distance from origin:', distance);
     }
 
-    // Debounced log function
-    const debouncedLog = debounce(() => {
-        customLog(`final zoom:${newDistance}`);
-    }, 200); // Adjust the debounce delay as needed
-
-    window.addEventListener('wheel', function (event) {
-        onZoom(event);
-        debouncedLog();
-    }, { passive: false });  // Add this to make event.preventDefault() work
+    animate();
 }
+
+export { applyZoomScrollControl };

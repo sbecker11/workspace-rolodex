@@ -1,4 +1,5 @@
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { Vector3 } from 'three';
 
 export function applyRotateYControl(renderer, camera, scene) {
     const controls = new OrbitControls(camera, renderer.domElement);
@@ -30,14 +31,14 @@ export function applyRotateYControl(renderer, camera, scene) {
 
     // Animate the camera with inertial rotation
     function animate() {
+
         // Apply inertial rotation to the camera
         if (!isDragging) {
-            // Apply the rotation velocity to the azimuthal angle
-            controls.rotateLeft(rotationVelocity);
-            console.log('Rotating: rotationVelocity =', rotationVelocity);
-
-            // Update controls to apply the changes
-            controls.update();
+            if ( Math.abs(rotationVelocity) > 0.001 ) {
+                controls.rotate(rotationVelocity);
+                console.log(`controls.rotate: ${rotationVelocity}`);
+                controls.update();
+            }
         }
 
         // Render the scene

@@ -7,13 +7,13 @@
   "license": "ISC",
   "main": "dist/index_bundle.js",
   "scripts": {
-    "start": "webpack serve --mode development",
+    "clean-dist": "rm -rf dist/*",
+    "clean-node": "rm -rf node_modules package-lock.json && npm cache clean --force",
+    "clean": "npm run clean-dist && npm run clean-node",
     "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "clean": "rm -rf node_modules package-lock.json && npm cache clean --force"
+    "start": "webpack-dev-server --config ./webpack.config.js"
   },
-  "homepage": "https://sbecker11.github.io/workspace-rolodex", 
+  "homepage": "https://sbecker11.github.io/workspace-rolodex",
   "dependencies": {
     "@types/three": "^0.167.1",
     "express": "^5.0.0",
@@ -30,6 +30,6 @@
     "terser-webpack-plugin": "^5.3.10",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^5.1.0"
   }
 }

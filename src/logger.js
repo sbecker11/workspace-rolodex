@@ -1,5 +1,5 @@
-function customLog(message) {
-    console.log(message); // Output to browser console
-  }
+function customLog(...args) {
+  console.log(...args); // Output to browser console
+}
   
-  module.exports = customLog;
+module.exports = customLog;

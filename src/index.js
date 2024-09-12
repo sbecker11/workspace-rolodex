@@ -24,7 +24,7 @@ const camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight,
 const defaultDistance = calculateDefaultDistance(camera) * 5; // Increase the distance by 5 times
 camera.position.set(0, defaultDistance, 0); // Center the camera on the Y-axis
 camera.lookAt(new Vector3(0, 0, 0));  // Point the camera towards the center of the scene
-
+customLog(`defaultDistance:${defaultDistance}`);
 // Set the default zoom
 camera.zoom = CAMERA_ZOOM;
 camera.updateProjectionMatrix(); // Update the camera projection matrix after changing the zoom
@@ -52,9 +52,6 @@ scene.add(light);
 const ambientLight = new AmbientLight(AMBIENT_LIGHT_COLOR); // soft white light
 scene.add(ambientLight);
 
-// Apply zoom controls
-applyZoomScrollControl(camera, defaultDistance);
-
 light.position.set(LIGHT_POSITION.x, LIGHT_POSITION.y, LIGHT_POSITION.z);
 rolodex.rotation.y = MathUtils.degToRad(ROLODEX_ROTATION.y); // Final rotation around Y-axis
 rolodex.rotation.x = ROLODEX_ROTATION.x; // Final rotation around X-axis
@@ -64,6 +61,9 @@ applyRotateCameraAndLights(renderer, camera, [light, ambientLight]);
 
 // Apply rotate control around Y-axis
 applyRotateYControl(renderer, camera, rolodex);
+
+// Apply zoom controls
+applyZoomScrollControl(camera, renderer);
 
 // Track the previous zoom value
 let previousZoom = camera.zoom;
