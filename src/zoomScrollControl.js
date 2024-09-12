@@ -29,8 +29,8 @@ function applyZoomScrollControl(camera, renderer) {
         renderer.render(scene, camera);
 
         // Calculate and log the distance from the scene origin
-        // let distance = camera.position.distanceTo(new THREE.Vector3(0, 0, 0));
-        // console.log('Distance from origin:', distance);
+        let distance = camera.position.distanceTo(new THREE.Vector3(0, 0, 0));
+        console.log('Distance from origin:', distance);
     }
 
     animate();
