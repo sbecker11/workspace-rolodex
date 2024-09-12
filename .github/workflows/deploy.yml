@@ -6,8 +6,12 @@ on:
     branches:
       - main  # Set a branch name to trigger deployment
 
+permissions:
+  contents: write  # Explicitly grant write permissions
+
 jobs:
   deploy:
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
