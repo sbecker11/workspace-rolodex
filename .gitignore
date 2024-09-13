@@ -131,3 +131,4 @@ dist
 
 # for workspace-rolodex only
 private_media/
+.DS_Store

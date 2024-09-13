@@ -3,7 +3,6 @@
 import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh } from '../node_modules/three/build/three.module.js';
 import { CylinderGeometry, Group, DoubleSide, Color } from '../node_modules/three/build/three.module.js';
 import { flatColorChips } from './color_chips.js';
-import { addTextToCard } from './textUtils.js';
 const customLog = require('./logger');
 
 var cardWidth = 1.0;
@@ -134,8 +133,6 @@ export function createRolodex() {
         customLog(`card:${i} degrees:${Math.floor(angle*radiansToDegrees)} #matchingColoChips ${matchingColorChips.length}`)
 
         var fontSize= 0.02;
-
-        // addTextToCard(matchingColorChips[0].page_hue_name, 0xffffff, card, cardWidth * 0.75, cardHeight * 0.5, fontSize); 
 
         matchingColorChips.forEach(colorChip => {
             var chip = createChip(colorChip, chipSize);
