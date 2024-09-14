@@ -1,35 +1,14 @@
 {
   "name": "workspace-rolodex",
   "version": "1.0.0",
-  "description": "three.js app written with lots of help from chatgpt4",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "main": "dist/index_bundle.js",
+  "main": "./dist/index.js",
+  "homepage": "https://sbecker11.github.io/workspace-rolodex/",
   "scripts": {
-    "clean-dist": "rm -rf dist/*",
-    "clean-node": "rm -rf node_modules package-lock.json && npm cache clean --force",
+    "clean-dist": "rm -rf ./dist/*",
+    "clean-node": "rm -rf ./node_modules ./package-lock.json && npm cache clean --force",
     "clean": "npm run clean-dist && npm run clean-node",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --config ./webpack.config.js"
-  },
-  "homepage": "https://sbecker11.github.io/workspace-rolodex",
-  "dependencies": {
-    "@types/three": "^0.167.1",
-    "express": "^5.0.0",
-    "three": "^0.154.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "babel-loader": "^9.1.3",
-    "copy-webpack-plugin": "^12.0.2",
-    "eslint": "^9.8.0",
-    "gh-pages": "^6.1.1",
-    "html-webpack-plugin": "^5.6.0",
-    "terser-webpack-plugin": "^5.3.10",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "build": "npm run clean-dist && webpack --config ./webpack.config.js --mode production --env homepage=$npm_package_homepage",
+    "start": "webpack-dev-server --config ./webpack.config.js --content-base ./dist --port 9000",
+    "install-deps": "node ./installAllDependencies.js ./all-dependencies.json"
   }
 }

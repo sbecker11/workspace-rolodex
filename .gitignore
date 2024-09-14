@@ -79,6 +79,12 @@ web_modules/
 .env.production.local
 .env.local
 
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
@@ -89,7 +95,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -131,4 +136,15 @@ dist
 
 # for workspace-rolodex only
 private_media/
+
+# ignore macos  
 .DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore the child project folder
+child/

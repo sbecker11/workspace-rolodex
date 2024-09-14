@@ -1,3 +1,10 @@
+//
+// webpack.config.js
+// output.publicPath: '/workspace-rolodex/'
+// devServer.static.publicPath: '/workspace-rolodex/'
+// devServer.port: 9000
+// devServer.proxy.target: 'http://localhost:5000'
+// 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
@@ -9,7 +16,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.[contenthash].js',
-    publicPath: '/',  // Update this to match your repository name
+    publicPath: '/workspace-rolodex/',  // Update this to match your repository name
   },
   plugins: [
     new HtmlWebpackPlugin({
