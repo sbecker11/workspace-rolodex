@@ -49,20 +49,18 @@ module.exports = {
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
-      directory: path.join(__dirname, 'dist'),
       publicPath: '/workspace-rolodex/',  // Ensure this matches the output publicPath
     },
     compress: true,
     port: 9000,
     open: true,  // Automatically open the browser
     hot: true, // Enable Hot Module Replacement
-    proxy: [
-      {
-        context: ['/api'],
+    proxy: {
+      '/api': {
         target: 'http://localhost:5000',  // The backend server URL
         changeOrigin: true,
         pathRewrite: { '^/api': '' }  // Remove /api prefix when forwarding
       }
-    ]
+    }
   },
 };
