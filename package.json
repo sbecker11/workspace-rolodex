@@ -1,30 +1,29 @@
 {
   "name": "workspace-rolodex",
   "version": "1.0.0",
-  "main": "./dist/index.js",
+  "description": "interactive munsell color space viewer",
+  "main": "main.js",
   "homepage": "https://sbecker11.github.io/workspace-rolodex/",
   "scripts": {
-    "clean-dist": "rm -rf ./dist/*",
-    "clean-node": "rm -rf ./node_modules ./package-lock.json && npm cache clean --force",
-    "clean": "npm run clean-dist && npm run clean-node",
-    "build": "npm run clean-dist && webpack --config ./webpack.config.js --mode production --env homepage=$npm_package_homepage",
-    "start": "webpack-dev-server --config ./webpack.config.js --static ./dist --port 9000",
-    "install-deps": "node ./installAllDependencies.js ./all-dependencies.json"
+    "dev": "vite --open chrome --port 3000",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "author": "Shawn Becker",
+  "license": "ISC",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "three": "^0.139.0"
+    "three": "^0.158.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-react": "^7.24.7",
-    "babel-loader": "^8.3.0",
-    "copy-webpack-plugin": "^10.2.4",
-    "html-webpack-plugin": "^5.3.2",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.11.1"
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbecker11/workspace-rolodex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbecker11/workspace-rolodex/issues"
   }
 }

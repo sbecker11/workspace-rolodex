@@ -146,5 +146,3 @@ node_modules/
 # Ignore build output
 dist/
 
-# Ignore the child project folder
-child/

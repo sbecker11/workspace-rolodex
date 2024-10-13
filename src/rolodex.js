@@ -3,7 +3,7 @@
 import { PlaneGeometry, BoxGeometry, MeshPhongMaterial, Mesh } from '../node_modules/three/build/three.module.js';
 import { CylinderGeometry, Group, DoubleSide, Color } from '../node_modules/three/build/three.module.js';
 import { flatColorChips } from './color_chips.js';
-const customLog = require('./logger');
+import { customLog } from './logger.js';
 
 var cardWidth = 1.0;
 
@@ -79,8 +79,15 @@ function scaleColorChips(colorChips, cardWidth) {
 function createChip(colorChip, chipSize) {
     let chipDepth = (cardWidth/2 - colorChip.x1) * 0.16;
     var chipGeometry = new BoxGeometry(chipSize, chipSize, chipDepth);
-    var chipMaterial = new MeshPhongMaterial(
-        { color: new Color(parseInt(colorChip.r)/255.0, parseInt(colorChip.g)/255.0, parseInt(colorChip.b)/255.0) });
+    var chipColor = new Color(
+        parseInt(colorChip.r)/255.0, 
+        parseInt(colorChip.g)/255.0, 
+        parseInt(colorChip.b)/255.0);
+    var chipMaterial = new MeshPhongMaterial({
+        color: chipColor, 
+        specular: 0x9d9d9d, // Specular color (gray)
+        shininess: 100 // Shininess of the material (higher value means more specular highlights)
+      });
     var chip = new Mesh(chipGeometry, chipMaterial);
     chip.position.set(colorChip.x1 + chipSize / 2, colorChip.y1 + chipSize / 2, -chipDepth / 2);
     return chip;
