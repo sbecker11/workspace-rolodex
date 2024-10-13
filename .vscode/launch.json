@@ -4,12 +4,22 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "index on 5500",
             "request": "launch",
             "type": "chrome",
             "url": "http://localhost:5500/index.html",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Debug Node.js App",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/chips_to_hue_png_files.js",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }

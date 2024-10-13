@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "interactive munsell color space viewer",
   "main": "main.js",
+  "type": "module",
   "homepage": "https://sbecker11.github.io/workspace-rolodex/",
   "scripts": {
+    "hue_pages": "node ./src/chips_to_hue_png_files.js",
     "dev": "vite --open chrome --port 3000",
     "build": "vite build",
     "predeploy": "npm run build",
@@ -13,6 +15,7 @@
   "author": "Shawn Becker",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^2.11.2",
     "three": "^0.158.0"
   },
   "devDependencies": {
