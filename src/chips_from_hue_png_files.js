@@ -64,7 +64,7 @@ async function extractColorInformation(filePath, isScaled, mappings) {
         const b = pixelData[2];
 
         const pageHueName = page_hue_number_page_hue_name_map[pageHueNumber];
-        const colorKey = `${pageHueName}-${valueRow}-${chromaColumn}`;
+        const colorKey = chromaColumn > 0 ? `${pageHueName}-${valueRow}-${chromaColumn}` : `N${valueRow}`;
 
         colorChips.push({
           x1: (gapWidth / 2 + x * (rectWidth + gapWidth)).toString(),
@@ -140,3 +140,4 @@ async function invertScaled() {
 }
 
 invertUnscaled();
+invertScaled();

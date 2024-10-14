@@ -8,7 +8,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5R-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -22,7 +22,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5R-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -78,7 +78,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5R-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -162,7 +162,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5R-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -288,7 +288,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5R-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -428,7 +428,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5R-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -582,7 +582,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5R-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -722,7 +722,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5R-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -848,7 +848,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5R-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -960,7 +960,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5R-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -1044,7 +1044,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5R",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5R-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -1058,7 +1058,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0Y-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -1072,7 +1072,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0Y-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -1226,7 +1226,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0Y-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -1366,7 +1366,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0Y-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -1492,7 +1492,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0Y-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -1604,7 +1604,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0Y-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -1702,7 +1702,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0Y-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -1772,7 +1772,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0Y-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -1828,7 +1828,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0Y-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -1870,7 +1870,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0Y-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -1898,7 +1898,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0Y",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0Y-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -1912,7 +1912,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5Y-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -1926,7 +1926,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5Y-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -2066,7 +2066,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5Y-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -2206,7 +2206,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5Y-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -2332,7 +2332,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5Y-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -2444,7 +2444,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5Y-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -2542,7 +2542,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5Y-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -2612,7 +2612,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5Y-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -2668,7 +2668,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5Y-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -2710,7 +2710,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5Y-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -2738,7 +2738,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5Y",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5Y-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -2752,7 +2752,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0Y-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -2766,7 +2766,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0Y-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -2906,7 +2906,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0Y-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -3046,7 +3046,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0Y-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -3172,7 +3172,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0Y-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -3284,7 +3284,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0Y-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -3382,7 +3382,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0Y-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -3452,7 +3452,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0Y-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -3508,7 +3508,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0Y-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -3550,7 +3550,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0Y-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -3578,7 +3578,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0Y",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0Y-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -3592,7 +3592,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5GY-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -3606,7 +3606,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5GY-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -3746,7 +3746,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5GY-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -3886,7 +3886,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5GY-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -4012,7 +4012,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5GY-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -4124,7 +4124,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5GY-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -4222,7 +4222,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5GY-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -4292,7 +4292,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5GY-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -4348,7 +4348,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5GY-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -4390,7 +4390,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5GY-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -4418,7 +4418,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5GY",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5GY-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -4432,7 +4432,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0GY-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -4446,7 +4446,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0GY-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -4586,7 +4586,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0GY-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -4740,7 +4740,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0GY-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -4866,7 +4866,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0GY-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -4978,7 +4978,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0GY-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -5076,7 +5076,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0GY-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -5160,7 +5160,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0GY-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -5230,7 +5230,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0GY-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -5286,7 +5286,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0GY-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -5328,7 +5328,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0GY",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0GY-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -5342,7 +5342,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5GY-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -5356,7 +5356,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5GY-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -5496,7 +5496,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5GY-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -5650,7 +5650,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5GY-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -5790,7 +5790,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5GY-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -5916,7 +5916,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5GY-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -6028,7 +6028,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5GY-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -6126,7 +6126,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5GY-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -6210,7 +6210,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5GY-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -6280,7 +6280,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5GY-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -6322,7 +6322,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5GY",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5GY-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -6336,7 +6336,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0GY-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -6350,7 +6350,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0GY-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -6490,7 +6490,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0GY-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -6672,7 +6672,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0GY-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -6840,7 +6840,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0GY-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -6994,7 +6994,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0GY-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -7134,7 +7134,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0GY-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -7260,7 +7260,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0GY-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -7372,7 +7372,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0GY-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -7470,7 +7470,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0GY-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -7526,7 +7526,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0GY",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0GY-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -7540,7 +7540,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5G-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -7554,7 +7554,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5G-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -7680,7 +7680,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5G-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -7862,7 +7862,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5G-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -8058,7 +8058,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5G-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -8268,7 +8268,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5G-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -8478,7 +8478,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5G-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -8674,7 +8674,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5G-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -8842,7 +8842,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5G-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -8968,7 +8968,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5G-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -9038,7 +9038,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5G",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5G-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -9052,7 +9052,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0G-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -9066,7 +9066,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0G-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -9164,7 +9164,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0G-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -9332,7 +9332,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0G-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -9528,7 +9528,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0G-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -9738,7 +9738,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0G-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -9948,7 +9948,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0G-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -10144,7 +10144,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0G-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -10312,7 +10312,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0G-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -10438,7 +10438,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0G-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -10508,7 +10508,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0G",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0G-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -10522,7 +10522,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5G-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -10536,7 +10536,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5G-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -10634,7 +10634,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5G-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -10788,7 +10788,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5G-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -10984,7 +10984,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5G-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -11194,7 +11194,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5G-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -11404,7 +11404,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5G-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -11600,7 +11600,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5G-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -11768,7 +11768,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5G-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -11894,7 +11894,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5G-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -11964,7 +11964,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5G",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5G-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -11978,7 +11978,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0R-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -11992,7 +11992,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0R-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -12048,7 +12048,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0R-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -12132,7 +12132,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0R-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -12244,7 +12244,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0R-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -12384,7 +12384,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0R-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -12538,7 +12538,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0R-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -12678,7 +12678,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0R-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -12804,7 +12804,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0R-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -12916,7 +12916,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0R-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -13000,7 +13000,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0R",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0R-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -13014,7 +13014,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0G-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -13028,7 +13028,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0G-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -13126,7 +13126,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0G-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -13280,7 +13280,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0G-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -13462,7 +13462,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0G-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -13658,7 +13658,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0G-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -13868,7 +13868,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0G-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -14064,7 +14064,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0G-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -14232,7 +14232,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0G-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -14358,7 +14358,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0G-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -14428,7 +14428,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0G",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0G-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -14442,7 +14442,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5BG-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -14456,7 +14456,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5BG-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -14540,7 +14540,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5BG-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -14680,7 +14680,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5BG-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -14848,7 +14848,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5BG-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -15016,7 +15016,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5BG-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -15198,7 +15198,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5BG-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -15380,7 +15380,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5BG-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -15534,7 +15534,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5BG-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -15646,7 +15646,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5BG-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -15716,7 +15716,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5BG",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5BG-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -15730,7 +15730,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0BG-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -15744,7 +15744,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0BG-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -15828,7 +15828,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0BG-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -15954,7 +15954,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0BG-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -16108,7 +16108,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0BG-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -16262,7 +16262,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0BG-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -16430,7 +16430,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0BG-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -16584,7 +16584,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0BG-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -16724,7 +16724,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0BG-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -16822,7 +16822,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0BG-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -16878,7 +16878,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0BG",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0BG-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -16892,7 +16892,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5BG-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -16906,7 +16906,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5BG-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -16990,7 +16990,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5BG-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -17116,7 +17116,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5BG-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -17256,7 +17256,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5BG-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -17396,7 +17396,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5BG-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -17536,7 +17536,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5BG-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -17676,7 +17676,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5BG-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -17802,7 +17802,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5BG-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -17900,7 +17900,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5BG-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -17956,7 +17956,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5BG",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5BG-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -17970,7 +17970,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0BG-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -17984,7 +17984,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0BG-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -18040,7 +18040,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0BG-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -18152,7 +18152,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0BG-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -18278,7 +18278,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0BG-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -18418,7 +18418,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0BG-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -18544,7 +18544,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0BG-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -18670,7 +18670,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0BG-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -18782,7 +18782,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0BG-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -18866,7 +18866,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0BG-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -18922,7 +18922,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0BG",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0BG-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -18936,7 +18936,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5B-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -18950,7 +18950,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5B-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -18992,7 +18992,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5B-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -19090,7 +19090,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5B-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -19216,7 +19216,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5B-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -19342,7 +19342,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5B-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -19468,7 +19468,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5B-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -19594,7 +19594,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5B-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -19692,7 +19692,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5B-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -19776,7 +19776,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5B-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -19832,7 +19832,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5B",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5B-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -19846,7 +19846,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0B-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -19860,7 +19860,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0B-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -19902,7 +19902,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0B-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -19972,7 +19972,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0B-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -20084,7 +20084,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0B-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -20210,7 +20210,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0B-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -20336,7 +20336,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0B-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -20448,7 +20448,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0B-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -20546,7 +20546,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0B-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -20630,7 +20630,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0B-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -20686,7 +20686,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0B",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0B-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -20700,7 +20700,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5B-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -20714,7 +20714,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5B-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -20756,7 +20756,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5B-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -20826,7 +20826,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5B-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -20924,7 +20924,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5B-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -21050,7 +21050,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5B-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -21176,7 +21176,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5B-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -21288,7 +21288,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5B-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -21386,7 +21386,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5B-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -21470,7 +21470,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5B-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -21540,7 +21540,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5B",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5B-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -21554,7 +21554,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0B-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -21568,7 +21568,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0B-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -21610,7 +21610,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0B-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -21680,7 +21680,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0B-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -21778,7 +21778,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0B-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -21904,7 +21904,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0B-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -22044,7 +22044,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0B-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -22170,7 +22170,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0B-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -22282,7 +22282,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0B-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -22366,7 +22366,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0B-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -22436,7 +22436,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0B",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0B-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -22450,7 +22450,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5PB-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -22464,7 +22464,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5PB-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -22492,7 +22492,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5PB-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -22548,7 +22548,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5PB-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -22632,7 +22632,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5PB-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -22744,7 +22744,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5PB-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -22884,7 +22884,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5PB-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -23024,7 +23024,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5PB-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -23136,7 +23136,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5PB-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -23234,7 +23234,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5PB-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -23304,7 +23304,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5PB",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5PB-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -23318,7 +23318,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5R-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -23332,7 +23332,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5R-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -23388,7 +23388,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5R-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -23472,7 +23472,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5R-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -23598,7 +23598,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5R-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -23738,7 +23738,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5R-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -23892,7 +23892,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5R-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -24046,7 +24046,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5R-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -24172,7 +24172,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5R-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -24284,7 +24284,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5R-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -24368,7 +24368,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5R",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5R-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -24382,7 +24382,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0PB-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -24396,7 +24396,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0PB-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -24424,7 +24424,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0PB-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -24480,7 +24480,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0PB-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -24564,7 +24564,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0PB-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -24676,7 +24676,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0PB-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -24816,7 +24816,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0PB-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -24970,7 +24970,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0PB-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -25110,7 +25110,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0PB-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -25222,7 +25222,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0PB-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -25306,7 +25306,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0PB",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0PB-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -25320,7 +25320,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5PB-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -25334,7 +25334,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5PB-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -25362,7 +25362,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5PB-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -25418,7 +25418,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5PB-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -25502,7 +25502,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5PB-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -25614,7 +25614,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5PB-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -25768,7 +25768,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5PB-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -25964,7 +25964,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5PB-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -26216,7 +26216,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5PB-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -26496,7 +26496,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5PB-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -26776,7 +26776,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5PB",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5PB-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -26790,7 +26790,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0PB-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -26804,7 +26804,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0PB-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -26846,7 +26846,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0PB-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -26916,7 +26916,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0PB-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -27014,7 +27014,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0PB-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -27140,7 +27140,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0PB-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -27308,7 +27308,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0PB-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -27532,7 +27532,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0PB-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -27784,7 +27784,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0PB-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -28036,7 +28036,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0PB-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -28260,7 +28260,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0PB",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0PB-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -28274,7 +28274,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5P-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -28288,7 +28288,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5P-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -28330,7 +28330,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5P-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -28400,7 +28400,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5P-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -28498,7 +28498,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5P-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -28638,7 +28638,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5P-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -28834,7 +28834,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5P-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -29072,7 +29072,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5P-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -29324,7 +29324,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5P-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -29548,7 +29548,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5P-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -29744,7 +29744,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5P",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5P-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -29758,7 +29758,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0P-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -29772,7 +29772,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0P-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -29814,7 +29814,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0P-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -29898,7 +29898,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0P-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -30010,7 +30010,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0P-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -30164,7 +30164,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0P-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -30374,7 +30374,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0P-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -30612,7 +30612,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0P-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -30850,7 +30850,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0P-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -31060,7 +31060,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0P-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -31228,7 +31228,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0P",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0P-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -31242,7 +31242,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5P-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -31256,7 +31256,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5P-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -31312,7 +31312,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5P-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -31410,7 +31410,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5P-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -31550,7 +31550,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5P-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -31732,7 +31732,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5P-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -31956,7 +31956,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5P-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -32194,7 +32194,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5P-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -32418,7 +32418,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5P-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -32600,7 +32600,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5P-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -32754,7 +32754,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5P",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5P-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -32768,7 +32768,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0P-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -32782,7 +32782,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0P-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -32838,7 +32838,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0P-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -32950,7 +32950,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0P-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -33118,7 +33118,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0P-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -33314,7 +33314,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0P-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -33538,7 +33538,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0P-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -33762,7 +33762,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0P-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -33958,7 +33958,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0P-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -34126,7 +34126,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0P-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -34266,7 +34266,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0P",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0P-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -34280,7 +34280,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5RP-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -34294,7 +34294,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5RP-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -34350,7 +34350,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5RP-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -34462,7 +34462,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5RP-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -34616,7 +34616,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5RP-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -34798,7 +34798,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5RP-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -34994,7 +34994,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5RP-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -35190,7 +35190,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5RP-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -35358,7 +35358,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5RP-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -35512,7 +35512,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5RP-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -35638,7 +35638,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5RP",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5RP-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -35652,7 +35652,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0RP-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -35666,7 +35666,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0RP-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -35722,7 +35722,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0RP-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -35820,7 +35820,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0RP-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -35960,7 +35960,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0RP-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -36128,7 +36128,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0RP-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -36310,7 +36310,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0RP-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -36478,7 +36478,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0RP-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -36632,7 +36632,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0RP-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -36772,7 +36772,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0RP-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -36884,7 +36884,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0RP",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0RP-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -36898,7 +36898,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5RP-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -36912,7 +36912,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5RP-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -36968,7 +36968,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5RP-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -37066,7 +37066,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5RP-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -37192,7 +37192,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5RP-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -37346,7 +37346,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5RP-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -37514,7 +37514,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5RP-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -37668,7 +37668,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5RP-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -37808,7 +37808,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5RP-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -37934,7 +37934,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5RP-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -38032,7 +38032,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5RP",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5RP-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -38046,7 +38046,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0R-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -38060,7 +38060,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0R-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -38116,7 +38116,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0R-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -38200,7 +38200,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0R-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -38326,7 +38326,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0R-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -38466,7 +38466,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0R-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -38606,7 +38606,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0R-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -38732,7 +38732,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0R-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -38844,7 +38844,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0R-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -38956,7 +38956,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0R-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -39040,7 +39040,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0R",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0R-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -39054,7 +39054,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0RP-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -39068,7 +39068,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0RP-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -39124,7 +39124,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0RP-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -39208,7 +39208,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0RP-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -39334,7 +39334,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0RP-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -39474,7 +39474,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0RP-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -39628,7 +39628,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0RP-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -39782,7 +39782,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0RP-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -39908,7 +39908,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0RP-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -40020,7 +40020,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0RP-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -40118,7 +40118,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0RP",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0RP-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -40132,7 +40132,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5YR-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -40146,7 +40146,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5YR-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -40202,7 +40202,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5YR-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -40300,7 +40300,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5YR-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -40454,7 +40454,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5YR-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -40594,7 +40594,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5YR-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -40720,7 +40720,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5YR-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -40818,7 +40818,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5YR-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -40902,7 +40902,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5YR-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -40972,7 +40972,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5YR-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -41042,7 +41042,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5YR",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5YR-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -41056,7 +41056,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "5.0YR-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -41070,7 +41070,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "5.0YR-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -41126,7 +41126,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "5.0YR-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -41238,7 +41238,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "5.0YR-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -41392,7 +41392,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "5.0YR-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -41532,7 +41532,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "5.0YR-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -41644,7 +41644,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "5.0YR-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -41742,7 +41742,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "5.0YR-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -41812,7 +41812,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "5.0YR-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -41868,7 +41868,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "5.0YR-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -41910,7 +41910,7 @@ export const flatColorChips = [
     "page_hue_name": "5.0YR",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "5.0YR-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -41924,7 +41924,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "7.5YR-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -41938,7 +41938,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "7.5YR-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -42008,7 +42008,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "7.5YR-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -42162,7 +42162,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "7.5YR-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -42302,7 +42302,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "7.5YR-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -42428,7 +42428,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "7.5YR-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -42540,7 +42540,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "7.5YR-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -42624,7 +42624,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "7.5YR-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -42694,7 +42694,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "7.5YR-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -42750,7 +42750,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "7.5YR-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -42778,7 +42778,7 @@ export const flatColorChips = [
     "page_hue_name": "7.5YR",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "7.5YR-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -42792,7 +42792,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "10.0YR-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -42806,7 +42806,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "10.0YR-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -42876,7 +42876,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "10.0YR-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -43030,7 +43030,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "10.0YR-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -43170,7 +43170,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "10.0YR-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -43282,7 +43282,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "10.0YR-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -43380,7 +43380,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "10.0YR-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -43464,7 +43464,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "10.0YR-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -43534,7 +43534,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "10.0YR-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -43576,7 +43576,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "10.0YR-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -43604,7 +43604,7 @@ export const flatColorChips = [
     "page_hue_name": "10.0YR",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "10.0YR-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
@@ -43618,7 +43618,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "0",
     "chroma_column": "0",
-    "color_key": "2.5Y-0-0",
+    "color_key": "N0",
     "r": "255",
     "g": "253",
     "b": "255"
@@ -43632,7 +43632,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "1",
     "chroma_column": "0",
-    "color_key": "2.5Y-1-0",
+    "color_key": "N1",
     "r": "232",
     "g": "225",
     "b": "237"
@@ -43730,7 +43730,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "2",
     "chroma_column": "0",
-    "color_key": "2.5Y-2-0",
+    "color_key": "N2",
     "r": "205",
     "g": "198",
     "b": "209"
@@ -43884,7 +43884,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "3",
     "chroma_column": "0",
-    "color_key": "2.5Y-3-0",
+    "color_key": "N3",
     "r": "178",
     "g": "172",
     "b": "181"
@@ -44010,7 +44010,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "4",
     "chroma_column": "0",
-    "color_key": "2.5Y-4-0",
+    "color_key": "N4",
     "r": "151",
     "g": "146",
     "b": "154"
@@ -44122,7 +44122,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "5",
     "chroma_column": "0",
-    "color_key": "2.5Y-5-0",
+    "color_key": "N5",
     "r": "125",
     "g": "121",
     "b": "127"
@@ -44220,7 +44220,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "6",
     "chroma_column": "0",
-    "color_key": "2.5Y-6-0",
+    "color_key": "N6",
     "r": "99",
     "g": "95",
     "b": "101"
@@ -44304,7 +44304,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "7",
     "chroma_column": "0",
-    "color_key": "2.5Y-7-0",
+    "color_key": "N7",
     "r": "74",
     "g": "71",
     "b": "75"
@@ -44360,7 +44360,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "8",
     "chroma_column": "0",
-    "color_key": "2.5Y-8-0",
+    "color_key": "N8",
     "r": "51",
     "g": "49",
     "b": "52"
@@ -44402,7 +44402,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "9",
     "chroma_column": "0",
-    "color_key": "2.5Y-9-0",
+    "color_key": "N9",
     "r": "30",
     "g": "28",
     "b": "30"
@@ -44430,7 +44430,7 @@ export const flatColorChips = [
     "page_hue_name": "2.5Y",
     "value_row": "10",
     "chroma_column": "0",
-    "color_key": "2.5Y-10-0",
+    "color_key": "N10",
     "r": "0",
     "g": "0",
     "b": "0"
