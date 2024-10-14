@@ -95,7 +95,7 @@ function createPngImages(colorChips, scaleChroma = false) {
     const uniqueLocations = new Set();
     chips.forEach(chip => {
       const x = Math.round((chip.chroma_column - minChromaColumn) * scaleFactor / 2); // Normalize and scale chroma_column, adjusted for even values
-      const y = chip.value_row - minValueRow; // Normalize value_row to start from 0
+      const y = maxValueRow  - (chip.value_row - minValueRow); // inverted to match original color chips format
       const locationKey = `${x},${y}`;
       if (uniqueLocations.has(locationKey)) {
         console.error(`Duplicate location found: ${locationKey}`);

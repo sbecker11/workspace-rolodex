@@ -13,10 +13,28 @@
             "webRoot": "${workspaceFolder}"
         },
         {
-            "name": "Debug Node.js App",
+            "name": "Debug chips_to_hue_pngs App",
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/src/chips_to_hue_png_files.js",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "Debug chips_from_hue_pngs App",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/chips_from_hue_png_files.js",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "test inversion App",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/test_inversion.js",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
