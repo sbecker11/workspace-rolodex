@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import { createLightsAndCamera } from './lightsAndCamera.js';
-import { createRolodex } from './rolodex.js';
+import TorusObject from './torus_object.js';
+import { Math_PI } from './math.js';
+import { createCoordinateGeometry } from './coordinate-geometry.jsx';
 
 let scene, camera, renderer, controls;
 let worker = new Worker(new URL('./worker.js', import.meta.url));
@@ -14,13 +16,21 @@ async function init() {
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
+        console.log("main.js calling createLightsAndCamera");
         controls = createLightsAndCamera(scene, camera, renderer);
 
+        console.log("main.js calling createCoordinateGeometry");
+        createCoordinateGeometry(scene);
+
         // Create the Rolodex
-        const { createRolodex } = await import('./rolodex.js');
+        const { createRolodex } = await import('./rolodex-orig.js');
         const rolodex = createRolodex(scene);
         rolodex.position.set(0, 0, 0); // Ensure the Rolodex is centered
         scene.add(rolodex);
+
+        const torus = new TorusObject(1.250,0.05);
+        torus.rotateX(Math_PI/2.0);
+        scene.add(torus);
     
         console.log('Scene setup complete');
         console.log('Starting animation loop');

@@ -9,8 +9,12 @@
 ## See my related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
 
 ##  How to build this app
-1. install node
-2. in shell run "npm run build'
-3. then run 'npm run start' 
+1. `npm install`
+2. `npm run build`
+3. `npm run dev`
+
+## To deploy to github pages
+1. `npm run predeploy`
+2. `npm run deploy`
 
 <img src="./media/munsell-rolodex-blades.gif" width="40%">

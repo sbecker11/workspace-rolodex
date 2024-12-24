@@ -1,4 +1,4 @@
-export const flatColorChips = [
+export const colorChips = [
 { x1: '90', y1: '770', x2: '165', y2: '845', page_hue_number: '1', page_hue_name: '2.5R', value_row: '1', chroma_column: '2', color_key: '2.5R-1-2', r: '45', g: '21', b: '31' },
 { x1: '5', y1: '770', x2: '80', y2: '845', page_hue_number: '1', page_hue_name: '2.5R', value_row: '1', chroma_column: '0', color_key: 'N1', r: '30', g: '28', b: '30' },
 { x1: '175', y1: '770', x2: '250', y2: '845', page_hue_number: '1', page_hue_name: '2.5R', value_row: '1', chroma_column: '4', color_key: '2.5R-1-4', r: '54', g: '14', b: '33' },

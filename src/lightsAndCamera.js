@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-
+import { Math_PI } from './math.js';
+ 
 export function createLightsAndCamera(scene, camera, renderer) {
     try {
         // Add directional lights
@@ -34,7 +35,7 @@ export function createLightsAndCamera(scene, camera, renderer) {
         controls.screenSpacePanning = false;
         controls.minDistance = 0.5;
         controls.maxDistance = 2.0;
-        controls.maxPolarAngle = Math.PI; // Allow full vertical rotation
+        controls.maxPolarAngle = Math_PI; // Allow full vertical rotation
         controls.minPolarAngle = 0;
 
         return controls;
