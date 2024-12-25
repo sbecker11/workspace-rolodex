@@ -26,19 +26,34 @@ export function createRolodex() {
         let matchingColorChips = colorChips.filter(chip => chip.page_hue_number - 1 === i);
         let degrees = Math.floor(angleRad * radiansToDegrees);
         let pageHueName = matchingColorChips[0].page_hue_name;
-        if (pageHueName.startsWith('5.0')) {
-            customLog(`card:${i} pageHueName:${pageHueName} degrees:${degrees} #matchingColorChips ${matchingColorChips.length}`);
-        }
+
+        const hueMapping = {
+            'R': 0/360,     // Red
+            'YR': 30/360,   // Yellow-Red
+            'Y': 60/360,    // Yellow
+            'GY': 90/360,   // Green-Yellow
+            'G': 120/360,   // Green
+            'BG': 150/360,  // Blue-Green
+            'B': 180/360,   // Blue
+            'PB': 210/360,  // Purple-Blue
+            'P': 270/360,   // Purple
+            'RP': 330/360   // Red-Purple
+        };
 
         // Calculate the hue for the hue page
-        let hue = i / numCards;
+        // let hue = i / numCards;
+        const hue = hueMapping[pageHueName.split(' ')[0]] || i / numCards;
 
         customLog("pageHueName:", pageHueName,"hue:", hue.toFixed(3));
 
         // Assign colors to the card based on the hue values
+        let maxValueRow = 0;
         matchingColorChips.forEach(colorChip => {
             let chip = createChip(colorChip, chipSize, hue);
-            if ( chip ) card.add(chip);
+            if ( chip ) {
+                card.add(chip);
+                maxValueRow = Math.max(maxValueRow, colorChip.value_row || 0);
+            }
         });
     }
 
@@ -50,17 +65,9 @@ export function createRolodex() {
 
     const totalRadius = cylinderRadius + cardWidth / 2;
     const totalHeight = cardHeight;
-    customLog(`totalRadius:${totalRadius} totalHeight:${totalHeight}`);
+    customLog(`totalRadius:${totalRadius} totalHeight:${totalHeight} maxValueRow:${maxValueRow}`);
 
     return rolodex;
-}
-
-// Function to convert hue to RGB
-function old_hueToRgb(hue) {
-    let r = Math.abs(hue * 6 - 3) - 1;
-    let g = 2 - Math.abs(hue * 6 - 2);
-    let b = 2 - Math.abs(hue * 6 - 4);
-    return new THREE.Color(Math.max(0, Math.min(1, r)), Math.max(0, Math.min(1, g)), Math.max(0, Math.min(1, b)));
 }
 
 function hueToRgb(hue) {
@@ -83,6 +90,7 @@ function hueToRgb(hue) {
         Math.max(0, Math.min(1, b + m))
     );
 }
+
 
 // Function to create a card with the specified angle, radius, width, and height
 function createCard(angleRad, radius, width, height) {

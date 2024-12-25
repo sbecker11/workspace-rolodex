@@ -19,8 +19,8 @@ async function init() {
         console.log("main.js calling createLightsAndCamera");
         controls = createLightsAndCamera(scene, camera, renderer);
 
-        console.log("main.js calling createCoordinateGeometry");
-        createCoordinateGeometry(scene);
+        // console.log("main.js calling createCoordinateGeometry");
+        // createCoordinateGeometry(scene);
 
         // Create the Rolodex
         const { createRolodex } = await import('./rolodex-orig.js');
@@ -48,17 +48,29 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
+let fps = 10;
+let fpsInterval = 1000 / fps;
+let then = performance.now();
+
 // Animation loop
 function animate() {
     requestAnimationFrame(animate);
-    try {
-        if (typeof controls !== 'undefined') {
-            controls.update(); // Required for damping to work
-        }
-        renderer.render(scene, camera);
-    } catch (error) {
-        console.error('Error during animation:', error);
+
+    if (typeof controls !== 'undefined') {
+        controls.update(); // Required for damping to work
     }
+    const now = Date.now();
+    const elapsed = now - then;
+    if (elapsed > fpsInterval) {
+        then = now - (elapsed % fpsInterval);
+        
+        try {
+            renderer.render(scene, camera);
+        } catch (error) {
+            console.error('Error during animation:', error);
+        }
+    }
+
 }
 
 // Offload heavy computation to Web Worker
