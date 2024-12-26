@@ -24,7 +24,7 @@ async function init() {
 
         // Create the Rolodex
         const { createRolodex } = await import('./rolodex-orig.js');
-        const rolodex = createRolodex(scene);
+        const rolodex = createRolodex();
         rolodex.position.set(0, 0, 0); // Ensure the Rolodex is centered
         scene.add(rolodex);
 
