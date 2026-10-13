@@ -1,8 +1,8 @@
 # workspace-rolodex
 
-<a href="https://sbecker11.github.io/workspace-rolodex/" target="_blank" rel="noopener noreferrer"><img src="./media/munsell-rolodex-blocks-33.jpg" alt="Munsell color chips in 3D (click to open the live viewer)"></a>
-
 <!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
+<a href="https://sbecker11.github.io/workspace-rolodex/" target="_blank" rel="noopener noreferrer"><img src="media/munsell-rolodex-blocks-33.jpg" alt="Munsell color chips in 3D"></a>
+
 Interactive 3D Munsell color-chip visualization.
 
 **RunMe:** [https://sbecker11.github.io/workspace-rolodex/](https://sbecker11.github.io/workspace-rolodex/)\
