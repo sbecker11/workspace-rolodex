@@ -11,10 +11,7 @@ Interactive 3D Munsell color-chip visualization.
 **Skills:** 3D Data Visualization · Computer Graphics · Color Science (Munsell Color System) · Three.js · JavaScript · HTML · Vite · Front-End Development · Babel · Jest · GitHub Pages · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
 <!-- SUMMARY:END -->
 
-<a href="https://sbecker11.github.io/workspace-rolodex/">Here's </a> my Munsell Color Chips in 3-D
-
-
-## See my related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
+See related project <a href="https://github.com/sbecker11/workspace-munsell">workspace-munsell</a>
 
 ##  How to build this app
 1. `npm install`
