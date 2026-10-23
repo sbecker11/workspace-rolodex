@@ -1,12 +1,11 @@
-# munsell-color-space-explorer
+# Munsell-Color-Space-Explorer
 
 <!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
-<a href="https://sbecker11.github.io/munsell-color-space-explorer/" target="_blank" rel="noopener noreferrer"><img src="media/munsell-rolodex-blocks-33.jpg" alt="Munsell color chips in 3D"></a>
+<a href="https://sbecker11.github.io/munsell-color-space-explorer/" target="_blank" rel="noopener noreferrer"><img src="./media/explorer-33.png" alt="Munsell-Color-Space-Explorer"></a>
 
-Interactive 3D Munsell color-chip visualization.
+Interactive 3D Munsell color-chip explorer.
 
-**RunMe:** [https://sbecker11.github.io/munsell-color-space-explorer/](https://sbecker11.github.io/munsell-color-space-explorer/)\
-**RunMe:** [https://sbecker11.github.io/munsell-color-space-viewer/](https://sbecker11.github.io/munsell-color-space-viewer/)
+**RunMe:** [https://sbecker11.github.io/munsell-color-space-explorer/](https://sbecker11.github.io/munsell-color-space-explorer/)
 
 **Skills:** 3D Data Visualization · Computer Graphics · Color Science (Munsell Color System) · Three.js · JavaScript · HTML · Vite · Front-End Development · Babel · Jest · GitHub Pages · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
 <!-- SUMMARY:END -->
