@@ -1,17 +1,16 @@
 {
-  "name": "workspace-rolodex",
+  "name": "munsell-color-space-explorer",
   "version": "1.0.0",
   "description": "interactive munsell color space viewer",
   "main": "main.js",
   "type": "module",
-  "homepage": "https://sbecker11.github.io/workspace-rolodex/",
+  "homepage": "https://sbecker11.github.io/munsell-color-space-explorer/",
   "scripts": {
     "hue_pages": "node ./src/chips_to_hue_png_files.js",
     "dev": "vite --open chrome --port 3000",
     "test": "jest",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Shawn Becker",
   "license": "ISC",
@@ -29,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbecker11/workspace-rolodex.git"
+    "url": "git+https://github.com/sbecker11/munsell-color-space-explorer.git"
   },
   "bugs": {
-    "url": "https://github.com/sbecker11/workspace-rolodex/issues"
+    "url": "https://github.com/sbecker11/munsell-color-space-explorer/issues"
   },
   "jest": {
     "transform": {
